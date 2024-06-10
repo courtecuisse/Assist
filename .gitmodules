@@ -1,3 +1,7 @@
+[submodule "mimesis-inria/sofa"]
+	path = mimesis-inria/sofa
+	url = git@github.com:mimesis-inria/sofa.git
+	branch = mimesis
 [submodule "assist/simulation/assist_inverse_simulation"]
 	path = assist/simulation/assist_inverse_simulation
 	url = git@forge.icube.unistra.fr:assist/simulation/assist_inverse_simulation.git
@@ -115,3 +119,60 @@
 [submodule "assist/assist_fork"]
 	path = assist/assist_fork
 	url = git@forge.icube.unistra.fr:assist/assist_fork.git
+[submodule "assist/network/assist_ros2plugin"]
+	path = assist/network/assist_ros2plugin
+	url = git@forge.icube.unistra.fr:assist/network/assist_ros2plugin.git
+[submodule "assist/network/assist_transport"]
+	path = assist/network/assist_transport
+	url = git@forge.icube.unistra.fr:assist/network/assist_transport.git
+[submodule "assist/network/assist_optitrack"]
+	path = assist/network/assist_optitrack
+	url = git@forge.icube.unistra.fr:assist/network/assist_optitrack.git
+[submodule "assist/network/assist_transport_eigen"]
+	path = assist/network/assist_transport_eigen
+	url = git@forge.icube.unistra.fr:assist/network/assist_transport_eigen.git
+[submodule "assist/visual/assist_glfw"]
+	path = assist/visual/assist_glfw
+	url = git@forge.icube.unistra.fr:assist/visual/assist_glfw.git
+[submodule "assist/visual/assist_imgui"]
+	path = assist/visual/assist_imgui
+	url = git@forge.icube.unistra.fr:assist/visual/assist_imgui.git
+[submodule "assist/visual/assist_imgui_gl"]
+	path = assist/visual/assist_imgui_gl
+	url = git@forge.icube.unistra.fr:assist/visual/assist_imgui_gl.git
+[submodule "assist/visual/assist_node-editor"]
+	path = assist/visual/assist_node-editor
+	url = git@forge.icube.unistra.fr:assist/visual/assist_node-editor.git
+[submodule "assist/visual/assist_gl"]
+	path = assist/visual/assist_gl
+	url = git@forge.icube.unistra.fr:assist/visual/assist_gl.git
+[submodule "assist/visual/assist_implot"]
+	path = assist/visual/assist_implot
+	url = git@forge.icube.unistra.fr:assist/visual/assist_implot.git
+[submodule "assist/visual/assist_texteditor"]
+	path = assist/visual/assist_texteditor
+	url = git@forge.icube.unistra.fr:assist/visual/assist_texteditor.git
+[submodule "assist/image/assist_cimg"]
+	path = assist/image/assist_cimg
+	url = git@forge.icube.unistra.fr:assist/image/assist_cimg.git
+[submodule "assist/image/assist_image"]
+	path = assist/image/assist_image
+	url = git@forge.icube.unistra.fr:assist/image/assist_image.git
+[submodule "assist/image/assist_vtkdicom"]
+	path = assist/image/assist_vtkdicom
+	url = git@forge.icube.unistra.fr:assist/image/assist_vtkdicom.git
+[submodule "assist/image/assist_cv"]
+	path = assist/image/assist_cv
+	url = git@forge.icube.unistra.fr:assist/image/assist_cv.git
+[submodule "assist/robot/assist_robot"]
+	path = assist/robot/assist_robot
+	url = git@forge.icube.unistra.fr:assist/robot/assist_robot.git
+[submodule "assist/robot/assist_sperry"]
+	path = assist/robot/assist_sperry
+	url = git@forge.icube.unistra.fr:assist/robot/assist_sperry.git
+[submodule "sofa/sperry"]
+	path = sofa/sperry
+	url = git@forge.icube.unistra.fr:sofa/sperry.git
+[submodule "assist/robot/assist_haptic"]
+	path = assist/robot/assist_haptic
+	url = git@forge.icube.unistra.fr:assist/robot/assist_haptic.git

@@ -111,15 +111,15 @@ add_assist_plugin(assist_main)
 ##    link_sofa_plugin(mSofaCudaSolver)
 #endif()
 
-#####################################
-################# EXTLIBS ###########
-#####################################
+####################################
+################ EXTLIBS ###########
+####################################
 
-#add_assist_plugin(extlibs/imgui)
-#add_assist_plugin(extlibs/imgui-filebrowser)
-#add_assist_plugin(extlibs/imgui-node-editor)
-#add_assist_plugin(extlibs/implot)
-#add_assist_plugin(extlibs/imguicolortextedit)
+add_assist_plugin(extlibs/imgui)
+add_assist_plugin(extlibs/imgui-filebrowser)
+add_assist_plugin(extlibs/imgui-node-editor)
+add_assist_plugin(extlibs/implot)
+add_assist_plugin(extlibs/imguicolortextedit)
 
 #########################################
 ##################### VISUALS ###########

@@ -11,19 +11,19 @@
 	path = lib/assist_gpu
 	url = git@icube-forge.unistra.fr:assist/lib/assist_gpu.git
 [submodule "extlib/imgui"]
-	path = extlib/imgui
+	path = extlibs/imgui
 	url = git@icube-forge.unistra.fr:assist/extlibs/imgui.git
 [submodule "extlib/imgui-node-editor"]
-	path = extlib/imgui-node-editor
+	path = extlibs/imgui-node-editor
 	url = git@icube-forge.unistra.fr:assist/extlibs/imgui-node-editor.git
 [submodule "extlib/implot"]
-	path = extlib/implot
+	path = extlibs/implot
 	url = git@icube-forge.unistra.fr:assist/extlibs/implot.git
 [submodule "extlib/imguicolortextedit"]
-	path = extlib/imguicolortextedit
+	path = extlibs/imguicolortextedit
 	url = git@icube-forge.unistra.fr:assist/extlibs/imguicolortextedit.git
 [submodule "extlib/imgui-filebrowser"]
-	path = extlib/imgui-filebrowser
+	path = extlibs/imgui-filebrowser
 	url = git@icube-forge.unistra.fr:assist/extlibs/imgui-filebrowser.git
 [submodule "assist_main"]
 	path = assist_main

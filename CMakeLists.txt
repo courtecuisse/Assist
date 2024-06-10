@@ -22,6 +22,23 @@ set(ADD_ASSIST_LIBS TRUE)
 
 add_assist_plugin(lib/assist_core)
 
+
+####################################
+################ EXTLIBS ###########
+####################################
+
+add_assist_plugin(extlibs/imgui)
+add_assist_plugin(extlibs/imgui-filebrowser)
+add_assist_plugin(extlibs/imgui-node-editor)
+add_assist_plugin(extlibs/implot)
+add_assist_plugin(extlibs/imguicolortextedit)
+
+####################################
+################ PLUGINS ###########
+####################################
+
+add_assist_plugin(lib/assist_utils)
+
 if (ADD_ASSIST_LIBS)
     set(ASSIST_GPU_CUBLAS ON)
     add_assist_plugin(lib/assist_gpu)
@@ -34,38 +51,39 @@ add_assist_plugin(assist_main)
 ###################  SOFA   ###########
 #######################################
 
-#if(ADD_ASSIST_SOFA)
-    #set(OpenGL_GL_PREFERENCE "LEGACY" CACHE STRING "" FORCE)
+if(ADD_ASSIST_SOFA)
+    set(OpenGL_GL_PREFERENCE "LEGACY" CACHE STRING "" FORCE)
 
-    #setSofaOption(SOFA_ENABLE_LEGACY_HEADERS OFF)
-    #setSofaOption(SOFA_BUILD_TESTS OFF)
-    #setSofaOption(SOFA_BUILD_METIS ON)
-    #setSofaOption(SOFA_USE_MASK OFF)
-    #setSofaOption(SOFA_NO_UPDATE_BBOX ON)
-    ##setSofaPath(CUDA_HOST_COMPILER "/usr/bin/g++-8")
+    set(SOFA_ENABLE_LEGACY_HEADERS OFF)
+    set(SOFA_BUILD_TESTS OFF)
+    set(SOFA_BUILD_METIS ON)
+    set(SOFA_USE_MASK OFF)
+    set(SOFA_NO_UPDATE_BBOX ON)
+    #setSofaPath(CUDA_HOST_COMPILER "/usr/bin/g++-8")
 
-    #setSofaOption(APPLICATION_MODELER OFF)
-    #setSofaOption(SOFA_BUILD_SCENECREATOR OFF)
-    #setSofaOption(SOFAGUI_ENABLE_QWT OFF)
-    #setSofaOption(PLUGIN_SOFAPYTHON OFF)
-    #setSofaOption(PLUGIN_IMAGE OFF)
-    #setSofaOption(PLUGIN_IMAGE_COMPILE_SET non)
-    #setSofaOption(SOFA_WITH_DEPRECATED_COMPONENTS OFF)
-    #setSofaOption(PLUGIN_CIMGPLUGIN OFF)
-    #setSofaOption(PLUGIN_CGALPLUGIN OFF)
+    set(APPLICATION_MODELER OFF)
+    set(SOFA_BUILD_SCENECREATOR OFF)
+    set(SOFAGUI_ENABLE_QWT OFF)
+    set(PLUGIN_SOFAPYTHON OFF)
+    set(PLUGIN_IMAGE OFF)
+    set(PLUGIN_IMAGE_COMPILE_SET non)
+    set(SOFA_WITH_DEPRECATED_COMPONENTS OFF)
+    set(PLUGIN_CIMGPLUGIN OFF)
+    set(PLUGIN_CGALPLUGIN OFF)
 
-    #setSofaOption(PLUGIN_SOFACUDA OFF)
-    #setSofaOption(SOFACUDA_CUBLAS ON)
-    #setSofaOption(SOFACUDA_DOUBLE ON)
+    set(PLUGIN_SOFACUDA OFF)
+    set(SOFACUDA_CUBLAS ON)
+    set(SOFACUDA_DOUBLE ON)
 
-    #setSofaOption(PLUGIN_SOFAVALIDATION OFF)
-    #setSofaOption(PLUGIN_SOFA_GUI_BATCH ON)
-    #setSofaOption(PLUGIN_SOFA_GUI_QT OFF)
-    #setSofaOption(PLUGIN_CIMGPLUGIN OFF)
-    #setSofaOption(PLUGIN_SOFAMATRIX OFF)
+    set(PLUGIN_SOFAVALIDATION OFF)
+    set(PLUGIN_SOFA_GUI_BATCH ON)
+    set(PLUGIN_SOFA_GUI_QT OFF)
+    set(PLUGIN_CIMGPLUGIN OFF)
+    set(PLUGIN_SOFAMATRIX OFF)
 
-    #add_sofa(github.com/mimesis-inria/sofa)
-#endif()
+    add_search_path(${CMAKE_CURRENT_SOURCE_DIR}/sofa)
+    add_assist_plugin(sofa/assist_sofa)
+endif()
 
 #if(ADD_ASSIST_SOFA_PLUGINS)
     #set(SofaCUDA_FOUND TRUE)
@@ -111,15 +129,7 @@ add_assist_plugin(assist_main)
 ##    link_sofa_plugin(mSofaCudaSolver)
 #endif()
 
-####################################
-################ EXTLIBS ###########
-####################################
 
-add_assist_plugin(extlibs/imgui)
-add_assist_plugin(extlibs/imgui-filebrowser)
-add_assist_plugin(extlibs/imgui-node-editor)
-add_assist_plugin(extlibs/implot)
-add_assist_plugin(extlibs/imguicolortextedit)
 
 #########################################
 ##################### VISUALS ###########
@@ -146,8 +156,6 @@ add_assist_plugin(extlibs/imguicolortextedit)
 ##########################################
 ###################### PLUGINS ###########
 ##########################################
-
-add_assist_plugin(lib/assist_utils)
 
 #if (ADD_ASSIST_IMAGE)
     #add_assist_plugin(image/assist_image)

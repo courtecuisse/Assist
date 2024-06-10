@@ -25,9 +25,6 @@
 [submodule "extlib/imgui-filebrowser"]
 	path = extlib/imgui-filebrowser
 	url = git@icube-forge.unistra.fr:assist/extlibs/imgui-filebrowser.git
-[submodule "extlib/assist_main"]
-	path = extlib/assist_main
-	url = git@icube-forge.unistra.fr:assist/assist_main.git
 [submodule "assist_main"]
 	path = assist_main
 	url = git@icube-forge.unistra.fr:assist/assist_main.git

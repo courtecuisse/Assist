@@ -85,10 +85,10 @@ if(ADD_ASSIST_SOFA)
     add_assist_plugin(sofa/assist_sofa)
 endif()
 
-#if(ADD_ASSIST_SOFA_PLUGINS)
-    #set(SofaCUDA_FOUND TRUE)
-    #add_sofa_plugin(github.com/mimesis-inria/sofa/applications/plugins/SofaCUDA)
-    #target_compile_options(SofaCUDA PRIVATE -w) #Disable warnings
+if(ADD_ASSIST_SOFA_PLUGINS)
+    set(SofaCUDA_FOUND TRUE)
+    add_sofa_plugin(sofa/sofa/applications/plugins/SofaCUDA)
+    target_compile_options(SofaCUDA PRIVATE -w) #Disable warnings
 
     #add_sofa_plugin(icube-forge.unistra.fr/sofa/SofaSolvers)
     #add_sofa_plugin(icube-forge.unistra.fr/sofa/SofaAsyncSolvers)
@@ -127,7 +127,7 @@ endif()
 ##    link_sofa_plugin(SofaPreconditioner)
 ##    link_sofa_plugin(SofaSparseSolver)
 ##    link_sofa_plugin(mSofaCudaSolver)
-#endif()
+endif()
 
 
 

@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.5)
 project(assist_long)
 
-include(../assist.cmake)
-include(../git.cmake)
-include(../ros2.cmake)
-include(../sofa.cmake)
-include(../gpu.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../assist_cmake/assist.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../assist_cmake/git.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../assist_cmake/ros2.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../assist_cmake/sofa.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../assist_cmake/gpu.cmake)
 
-add_search_path("${CMAKE_CURRENT_SOURCE_DIR}/../..")
+add_search_path("${CMAKE_CURRENT_SOURCE_DIR}/..")
 add_search_path("/home/tlha/work")
 
 

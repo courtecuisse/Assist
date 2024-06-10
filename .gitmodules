@@ -28,3 +28,9 @@
 [submodule "assist_main"]
 	path = assist_main
 	url = git@icube-forge.unistra.fr:assist/assist_main.git
+[submodule "sofa/sofa"]
+	path = sofa/sofa
+	url = git@github.com:mimesis-inria/sofa.git
+[submodule "sofa/assist_sofa"]
+	path = sofa/assist_sofa
+	url = git@icube-forge.unistra.fr:assist/simulation/assist_sofa.git

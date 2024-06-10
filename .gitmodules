@@ -25,6 +25,7 @@
 [submodule "sofa/SofaSolvers"]
 	path = sofa/SofaSolvers
 	url = git@forge.icube.unistra.fr:sofa/SofaSolvers.git
+	branch = master
 [submodule "sofa/mimesis/NeedleConstraintPlugin"]
 	path = sofa/mimesis/NeedleConstraintPlugin
 	url = git@forge.icube.unistra.fr:sofa/mimesis/NeedleConstraintPlugin.git
@@ -43,9 +44,6 @@
 [submodule "sofa/mimesis/sofascheduler"]
 	path = sofa/mimesis/sofascheduler
 	url = git@forge.icube.unistra.fr:sofa/mimesis/sofascheduler.git
-[submodule "sofa/mimesis/SperryCUDA"]
-	path = sofa/mimesis/SperryCUDA
-	url = git@forge.icube.unistra.fr:sofa/mimesis/SperryCUDA.git
 [submodule "sofa/msofaplugin-private"]
 	path = sofa/msofaplugin-private
 	url = git@forge.icube.unistra.fr:sofa/msofaplugin-private.git
@@ -58,12 +56,139 @@
 [submodule "sofa/ConstraintGeometry"]
 	path = sofa/ConstraintGeometry
 	url = git@forge.icube.unistra.fr:sofa/ConstraintGeometry.git
-[submodule "sofa/NeedleConstraintPluginDev"]
-	path = sofa/NeedleConstraintPluginDev
-	url = git@forge.icube.unistra.fr:sofa/NeedleConstraintPluginDev.git
 [submodule "sofa/collisionalgorithmdev"]
 	path = sofa/collisionalgorithmdev
 	url = git@forge.icube.unistra.fr:sofa/collisionalgorithmdev.git
 [submodule "sofa/sperry"]
 	path = sofa/sperry
 	url = git@forge.icube.unistra.fr:sofa/sperry.git
+[submodule "mimesis-inria/sofa"]
+	path = mimesis-inria/sofa
+	url = git@github.com:mimesis-inria/sofa.git
+[submodule "simulation/assist_inverse_simulation"]
+	path = simulation/assist_inverse_simulation
+	url = git@forge.icube.unistra.fr:assist/simulation/assist_inverse_simulation.git
+[submodule "simulation/assist_sofa"]
+	path = simulation/assist_sofa
+	url = git@forge.icube.unistra.fr:assist/simulation/assist_sofa.git
+[submodule "simulation/assist_cgal"]
+	path = simulation/assist_cgal
+	url = git@forge.icube.unistra.fr:assist/simulation/assist_cgal.git
+[submodule "simulation/assist_simulation"]
+	path = simulation/assist_simulation
+	url = git@forge.icube.unistra.fr:assist/simulation/assist_simulation.git
+[submodule "assist_gui"]
+	path = assist_gui
+	url = git@forge.icube.unistra.fr:assist/assist_gui.git
+[submodule "assist_opengl"]
+	path = assist_opengl
+	url = git@forge.icube.unistra.fr:assist/assist_opengl.git
+[submodule "extlibs/tinyxml"]
+	path = extlibs/tinyxml
+	url = git@forge.icube.unistra.fr:assist/extlibs/tinyxml.git
+[submodule "extlibs/imgui-node-editor"]
+	path = extlibs/imgui-node-editor
+	url = git@forge.icube.unistra.fr:assist/extlibs/imgui-node-editor.git
+[submodule "extlibs/implot"]
+	path = extlibs/implot
+	url = git@forge.icube.unistra.fr:assist/extlibs/implot.git
+[submodule "extlibs/imguicolortextedit"]
+	path = extlibs/imguicolortextedit
+	url = git@forge.icube.unistra.fr:assist/extlibs/imguicolortextedit.git
+[submodule "extlibs/imgui-filebrowser"]
+	path = extlibs/imgui-filebrowser
+	url = git@forge.icube.unistra.fr:assist/extlibs/imgui-filebrowser.git
+[submodule "lib/assist_core"]
+	path = lib/assist_core
+	url = git@forge.icube.unistra.fr:assist/lib/assist_core.git
+[submodule "lib/assist_utils"]
+	path = lib/assist_utils
+	url = git@forge.icube.unistra.fr:assist/lib/assist_utils.git
+[submodule "lib/assist_pylib"]
+	path = lib/assist_pylib
+	url = git@forge.icube.unistra.fr:assist/lib/assist_pylib.git
+[submodule "lib/assist_gpu"]
+	path = lib/assist_gpu
+	url = git@forge.icube.unistra.fr:assist/lib/assist_gpu.git
+[submodule "assist_main"]
+	path = assist_main
+	url = git@forge.icube.unistra.fr:assist/assist_main.git
+[submodule "assist_fork"]
+	path = assist_fork
+	url = git@forge.icube.unistra.fr:assist/assist_fork.git
+[submodule "network/assist_ros2plugin"]
+	path = network/assist_ros2plugin
+	url = git@forge.icube.unistra.fr:assist/network/assist_ros2plugin.git
+[submodule "network/assist_transport"]
+	path = network/assist_transport
+	url = git@forge.icube.unistra.fr:assist/network/assist_transport.git
+[submodule "network/assist_optitrack"]
+	path = network/assist_optitrack
+	url = git@forge.icube.unistra.fr:assist/network/assist_optitrack.git
+[submodule "network/assist_transport_eigen"]
+	path = network/assist_transport_eigen
+	url = git@forge.icube.unistra.fr:assist/network/assist_transport_eigen.git
+[submodule "visual/assist_glfw"]
+	path = visual/assist_glfw
+	url = git@forge.icube.unistra.fr:assist/visual/assist_glfw.git
+[submodule "visual/assist_imgui"]
+	path = visual/assist_imgui
+	url = git@forge.icube.unistra.fr:assist/visual/assist_imgui.git
+[submodule "visual/assist_imgui_gl"]
+	path = visual/assist_imgui_gl
+	url = git@forge.icube.unistra.fr:assist/visual/assist_imgui_gl.git
+[submodule "visual/assist_node-editor"]
+	path = visual/assist_node-editor
+	url = git@forge.icube.unistra.fr:assist/visual/assist_node-editor.git
+[submodule "visual/assist_gl"]
+	path = visual/assist_gl
+	url = git@forge.icube.unistra.fr:assist/visual/assist_gl.git
+[submodule "visual/assist_implot"]
+	path = visual/assist_implot
+	url = git@forge.icube.unistra.fr:assist/visual/assist_implot.git
+[submodule "visual/assist_texteditor"]
+	path = visual/assist_texteditor
+	url = git@forge.icube.unistra.fr:assist/visual/assist_texteditor.git
+[submodule "image/assist_cimg"]
+	path = image/assist_cimg
+	url = git@forge.icube.unistra.fr:assist/image/assist_cimg.git
+[submodule "image/assist_image"]
+	path = image/assist_image
+	url = git@forge.icube.unistra.fr:assist/image/assist_image.git
+[submodule "image/assist_vtkdicom"]
+	path = image/assist_vtkdicom
+	url = git@forge.icube.unistra.fr:assist/image/assist_vtkdicom.git
+[submodule "image/assist_cv"]
+	path = image/assist_cv
+	url = git@forge.icube.unistra.fr:assist/image/assist_cv.git
+[submodule "robot/assist_robot"]
+	path = robot/assist_robot
+	url = git@forge.icube.unistra.fr:assist/robot/assist_robot.git
+[submodule "robot/assist_sperry"]
+	path = robot/assist_sperry
+	url = git@forge.icube.unistra.fr:assist/robot/assist_sperry.git
+[submodule "robot/assist_haptic"]
+	path = robot/assist_haptic
+	url = git@forge.icube.unistra.fr:assist/robot/assist_haptic.git
+[submodule "extlibs/imgui"]
+	path = extlibs/imgui
+	url = git@forge.icube.unistra.fr:assist/extlibs/imgui.git
+[submodule "assist_cmake"]
+	path = assist_cmake
+	url = git@forge.icube.unistra.fr:assist/assist_cmake.git
+[submodule "sofa/mimesis/SperryCUDA"]
+	path = sofa/mimesis/SperryCUDA
+	url = git@forge.icube.unistra.fr:sofa/mimesis/SperryCUDA.git
+[submodule "sofa/Conect"]
+	path = sofa/Conect
+	url = git@forge.icube.unistra.fr:sofa/Conect.git
+[submodule "sofa/msofaplugin"]
+	path = sofa/msofaplugin
+	url = git@forge.icube.unistra.fr:sofa/msofaplugin.git
+[submodule "sofa/InverseSimulationPlugin"]
+	path = sofa/InverseSimulationPlugin
+	url = git@forge.icube.unistra.fr:sofa/InverseSimulationPlugin.git
+[submodule "sofa/NeedleConstraintPluginDev"]
+	path = sofa/NeedleConstraintPluginDev
+	url = git@forge.icube.unistra.fr:sofa/NeedleConstraintPluginDev.git
+	branch = master

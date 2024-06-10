@@ -32,9 +32,45 @@
 	path = assist_main
 	url = git@forge.icube.unistra.fr/assist_main.git
 
-[submodule "simulation/assist_inverse_simulation"]
-	path = simulation/assist_inverse_simulation
+[submodule "assist/simulation/assist_inverse_simulation"]
+	path = assist/simulation/assist_inverse_simulation
 	url = git@forge.icube.unistra.fr:assist/simulation/assist_inverse_simulation.git
-[submodule "simulation/assist_sofa"]
-	path = simulation/assist_sofa
+[submodule "assist/simulation/assist_sofa"]
+	path = assist/simulation/assist_sofa
 	url = git@forge.icube.unistra.fr:assist/simulation/assist_sofa.git
+[submodule "assist/simulation/assist_cgal"]
+	path = assist/simulation/assist_cgal
+	url = git@forge.icube.unistra.fr:assist/simulation/assist_cgal.git
+[submodule "assist/simulation/assist_simulation"]
+	path = assist/simulation/assist_simulation
+	url = git@forge.icube.unistra.fr:assist/simulation/assist_simulation.git
+[submodule "sofa/mimesis/mimesiscript"]
+	path = sofa/mimesis/mimesiscript
+	url = git@forge.icube.unistra.fr:sofa/mimesis/mimesiscript.git
+[submodule "sofa/mimesis/sofaconfig"]
+	path = sofa/mimesis/sofaconfig
+	url = git@forge.icube.unistra.fr:sofa/mimesis/sofaconfig.git
+[submodule "sofa/mimesis/projectivexray"]
+	path = sofa/mimesis/projectivexray
+	url = git@forge.icube.unistra.fr:sofa/mimesis/projectivexray.git
+[submodule "sofa/mimesis/SofaCUDAUtils"]
+	path = sofa/mimesis/SofaCUDAUtils
+	url = git@forge.icube.unistra.fr:sofa/mimesis/SofaCUDAUtils.git
+[submodule "sofa/mimesis/SofaCUDADev"]
+	path = sofa/mimesis/SofaCUDADev
+	url = git@forge.icube.unistra.fr:sofa/mimesis/SofaCUDADev.git
+[submodule "sofa/mimesis/SofaAsyncSolvers"]
+	path = sofa/mimesis/SofaAsyncSolvers
+	url = git@forge.icube.unistra.fr:sofa/mimesis/SofaAsyncSolvers.git
+[submodule "sofa/mimesis/SofaCUDALDI"]
+	path = sofa/mimesis/SofaCUDALDI
+	url = git@forge.icube.unistra.fr:sofa/mimesis/SofaCUDALDI.git
+[submodule "sofa/mimesis/SofaCUDASolvers"]
+	path = sofa/mimesis/SofaCUDASolvers
+	url = git@forge.icube.unistra.fr:sofa/mimesis/SofaCUDASolvers.git
+[submodule "sofa/SofaSolvers"]
+	path = sofa/SofaSolvers
+	url = git@forge.icube.unistra.fr:sofa/SofaSolvers.git
+[submodule "sofa/mimesis/NeedleConstraintPlugin"]
+	path = sofa/mimesis/NeedleConstraintPlugin
+	url = git@forge.icube.unistra.fr:sofa/mimesis/NeedleConstraintPlugin.git

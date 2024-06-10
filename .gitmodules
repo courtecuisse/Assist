@@ -1,0 +1,36 @@
+[submodule "lib/assist_core"]
+	path = lib/assist_core
+	url = git@icube-forge.unistra.fr:assist/lib/assist_core.git
+[submodule "lib/assist_utils"]
+	path = lib/assist_utils
+	url = git@icube-forge.unistra.fr:assist/lib/assist_utils.git
+[submodule "lib/assist_pylib"]
+	path = lib/assist_pylib
+	url = git@icube-forge.unistra.fr:assist/lib/assist_pylib.git
+[submodule "lib/assist_gpu"]
+	path = lib/assist_gpu
+	url = git@icube-forge.unistra.fr:assist/lib/assist_gpu.git
+[submodule "extlib/imgui"]
+	path = extlib/imgui
+	url = git@icube-forge.unistra.fr:assist/extlibs/imgui.git
+[submodule "extlib/imgui-node-editor"]
+	path = extlib/imgui-node-editor
+	url = git@icube-forge.unistra.fr:assist/extlibs/imgui-node-editor.git
+[submodule "extlib/tinyxml"]
+	path = extlib/tinyxml
+	url = git@icube-forge.unistra.fr:assist/extlibs/tinyxml.git
+[submodule "extlib/implot"]
+	path = extlib/implot
+	url = git@icube-forge.unistra.fr:assist/extlibs/implot.git
+[submodule "extlib/imguicolortextedit"]
+	path = extlib/imguicolortextedit
+	url = git@icube-forge.unistra.fr:assist/extlibs/imguicolortextedit.git
+[submodule "extlib/imgui-filebrowser"]
+	path = extlib/imgui-filebrowser
+	url = git@icube-forge.unistra.fr:assist/extlibs/imgui-filebrowser.git
+[submodule "extlib/assist_main"]
+	path = extlib/assist_main
+	url = git@icube-forge.unistra.fr:assist/assist_main.git
+[submodule "assist_main"]
+	path = assist_main
+	url = git@icube-forge.unistra.fr:assist/assist_main.git

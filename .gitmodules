@@ -16,9 +16,6 @@
 [submodule "extlib/imgui-node-editor"]
 	path = extlib/imgui-node-editor
 	url = git@icube-forge.unistra.fr:assist/extlibs/imgui-node-editor.git
-[submodule "extlib/tinyxml"]
-	path = extlib/tinyxml
-	url = git@icube-forge.unistra.fr:assist/extlibs/tinyxml.git
 [submodule "extlib/implot"]
 	path = extlib/implot
 	url = git@icube-forge.unistra.fr:assist/extlibs/implot.git

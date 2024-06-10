@@ -147,7 +147,7 @@ add_assist_plugin(extlibs/imguicolortextedit)
 ###################### PLUGINS ###########
 ##########################################
 
-#add_assist_plugin(lib/assist_utils)
+add_assist_plugin(lib/assist_utils)
 
 #if (ADD_ASSIST_IMAGE)
     #add_assist_plugin(image/assist_image)

@@ -32,3 +32,9 @@
 	path = assist_main
 	url = git@forge.icube.unistra.fr/assist_main.git
 
+[submodule "simulation/assist_inverse_simulation"]
+	path = simulation/assist_inverse_simulation
+	url = git@forge.icube.unistra.fr:assist/simulation/assist_inverse_simulation.git
+[submodule "simulation/assist_sofa"]
+	path = simulation/assist_sofa
+	url = git@forge.icube.unistra.fr:assist/simulation/assist_sofa.git

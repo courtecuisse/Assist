@@ -19,7 +19,7 @@ set(ADD_ASSIST_LIBS TRUE)
 
 
 add_search_path("${CMAKE_CURRENT_SOURCE_DIR}/")
-#add_search_path("/home/tlha/work/forge.icube.unistra.fr/assist/assist_config")
+add_search_path("/home/tlha/work/")
 
 
 
@@ -59,12 +59,12 @@ add_sofa(mimesis-inria/sofa)
 set(SofaCUDA_FOUND TRUE)
 add_sofa_plugin(mimesis-inria/sofa/applications/plugins/SofaCUDA/)
 target_compile_options(SofaCUDA PRIVATE -w) #Disable warnigs
-add_sofa_plugin(sofa/SofaCUDAUtils)
-add_sofa_plugin(sofa/SofaSolvers)
-#add_sofa_plugin(sofa/SofaAsyncSolvers)
-#add_sofa_plugin(sofa/SofaCUDASolvers)
-#add_sofa_plugin(sofa/SofaCUDALDI)
-#add_sofa_plugin(sofa/SofaCUDADev)
+add_sofa_plugin(../../../gitlab.inria.fr/mimesis/SofaCUDAUtils)
+add_sofa_plugin(../../../forge.icube.unistra.fr/sofa/SofaSolvers)
+add_sofa_plugin(../../../gitlab.inria.fr/mimesis/SofaAsyncSolvers)
+add_sofa_plugin(../../../forge.icube.unistra.fr/sofa/SofaCUDASolvers)
+add_sofa_plugin(../../../gitlab.inria.fr/mimesis/SofaCUDALDI)
+add_sofa_plugin(../../../gitlab.inria.fr/mimesis/SofaCUDADev)
 
 ###### MAINS ######
 #add_assist_plugin(extlibs/tinyxml)
@@ -73,8 +73,3 @@ add_assist_plugin(assist_main)
 
 
 ####### EXTLIBS ######
-add_assist_plugin(extlibs/imgui)
-add_assist_plugin(extlibs/imgui-node-editor)
-add_assist_plugin(extlibs/implot)
-add_assist_plugin(extlibs/imguicolortextedit)
-add_assist_plugin(extlibs/imgui-filebrowser)

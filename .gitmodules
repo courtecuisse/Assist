@@ -180,9 +180,6 @@
 [submodule "sofa/SofaCUDAUtils"]
 	path = sofa/SofaCUDAUtils
 	url = git@forge.icube.unistra.fr:sofa/mimesis/SofaCUDAUtils.git
-[submodule "sofa/SofaCUDASolvers"]
-	path = sofa/SofaCUDASolvers
-	url = git@forge.icube.unistra.fr:sofa/mimesis/SofaCUDASolvers.git
 [submodule "sofa/SofaCUDALDI"]
 	path = sofa/SofaCUDALDI
 	url = git@forge.icube.unistra.fr:sofa/mimesis/SofaCUDALDI.git
@@ -193,3 +190,6 @@
 	path = mimesis-inria/sofa
 	url = git@github.com:mimesis-inria/sofa.git
 	branch = mimesis
+[submodule "sofa/SofaCUDASolvers"]
+	path = sofa/SofaCUDASolvers
+	url = git@forge.icube.unistra.fr:sofa/SofaCUDASolvers.git

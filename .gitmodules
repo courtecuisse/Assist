@@ -38,3 +38,7 @@
 	path = sofa/SofaSolvers
 	url = git@icube-forge.unistra.fr:sofa/SofaSolvers.git
 	branch = master
+[submodule "sofa/SofaAsyncSolvers"]
+	path = sofa/SofaAsyncSolvers
+	url = git@icube-forge.unistra.fr:sofa/SofaAsyncSolvers.git
+	branch = master

@@ -92,7 +92,7 @@ if(ADD_ASSIST_SOFA_PLUGINS)
     target_compile_options(SofaCUDA PRIVATE -w) #Disable warnings
 
     add_sofa_plugin(sofa/SofaSolvers)
-#    add_sofa_plugin(SofaAsyncSolvers)
+    add_sofa_plugin(sofa/SofaAsyncSolvers)
 
     #add_sofa_plugin(gitlab.inria.fr/mimesis/SofaCUDALDI)
     #add_sofa_plugin(gitlab.inria.fr/mimesis/SofaCUDAUtils)

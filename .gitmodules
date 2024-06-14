@@ -34,3 +34,6 @@
 [submodule "sofa/assist_sofa"]
 	path = sofa/assist_sofa
 	url = git@icube-forge.unistra.fr:assist/simulation/assist_sofa.git
+[submodule "sofa/SofaSolvers"]
+	path = sofa/SofaSolvers
+	url = git@icube-forge.unistra.fr:sofa/SofaSolvers.git
